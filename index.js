@@ -10,4 +10,4 @@ let menuButton = document.querySelector(".menu-button")
 
 menuButton.addEventListener('click',()=>{
     menuBar.classList.toggle('menu-none')
-})
+})  
