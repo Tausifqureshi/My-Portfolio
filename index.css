@@ -91,6 +91,7 @@ a {
 }
 
 section {
+  /* padding: 8rem 0; */
   padding: 8rem 0;
 }
 
@@ -177,8 +178,8 @@ img {
 
 .container {
   max-width: 1420px;
-  width: 90%;
-  /* width: 95%; */
+  /* width: 90%; */
+  width: 95%;
   margin: 0 auto;
 }
 /* .......................................Start Navbar ........................................................*/
@@ -242,7 +243,7 @@ nav {
 
 /*  .......................Start Header section ........................................*/
 header {
-  height: 100vh;
+  /* height: 100vh; */
   width: 100%;
   overflow: hidden;
   display: grid;
@@ -309,7 +310,7 @@ header {
 }
 
 .hero-image img {
-  position: relative;
+  /* position: relative; */
   /* top: .5rem; */
 }
 
@@ -342,12 +343,23 @@ header {
 }
 
 .Social-links {
-  position: absolute;
-  /* bottom: .1rem; */
+  /* position: absolute;
   bottom: 2rem;
   display: flex;
   align-items: center;
+  gap: 2rem; */
+
+  /* position: relative;
+  bottom: 2rem; */
+  /* top: 1rem; */
+  /* left: 0;
+  right: 0; */
+  position: absolute;
+  display: flex;
+  bottom: 0rem;
+  left: 5rem;
   gap: 2rem;
+  /* z-index: 99999; */
 }
 
 .Social-links a {
@@ -363,9 +375,9 @@ header {
 
 .HireMe {
   position: absolute;
-  bottom: 2rem;
+  bottom: 0rem;
   text-decoration: underline;
-  right: 0;
+  right: 7rem;
   font-size: 17px;
   transition: var(--transition);
 }
@@ -826,8 +838,10 @@ footer {
   }
 
   .Social-links {
-    justify-content: center;
+    /* justify-content: center; */
+    margin-top: auto;
     position: relative;
+    bottom: 2.4rem;
   }
 
   .header-left {
