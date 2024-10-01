@@ -653,6 +653,7 @@ footer {
 @media (max-width: 1200px) {
   h1 {
     font-size: 46px;
+    margin-top: 5rem;
   }
 }
 /* Max-width 1024 */
@@ -715,7 +716,8 @@ footer {
 
   /* Start header */
   header {
-    height: 90vh;
+    /* height: 90vh; */
+    height: auto;
   }
   .header-container {
     grid-template-columns: 1fr;
@@ -757,7 +759,11 @@ footer {
     width: 70%;
   }
 }
-
+@media (max-width: 700px){
+  .Social-links{
+    left: 7rem;
+  }
+}
 /* Max-width 600px */
 @media (max-width: 600px) {
   h1 {
@@ -810,7 +816,7 @@ footer {
 
   /* Start header */
   header {
-    height: 100vh;
+    /* height: 100vh; */
   }
 
   .header-right {
@@ -839,9 +845,10 @@ footer {
 
   .Social-links {
     /* justify-content: center; */
-    margin-top: auto;
     position: relative;
     bottom: 2.4rem;
+    left: 9rem;
+    margin-top: 3.5rem;
   }
 
   .header-left {
@@ -901,6 +908,12 @@ footer {
   }
 }
 
+@media (max-width: 500px){
+.Social-links{
+  left: 7.5rem;
+}
+}
+
 @media (min-width: 300px) and (max-width: 400px) {
   header {
     height: 0%;
@@ -915,6 +928,8 @@ footer {
 
   .Social-links {
     overflow: hidden;
+    left: 5.5rem;
+    margin-top: 2rem;
   }
   .HireMe {
     display: none;
