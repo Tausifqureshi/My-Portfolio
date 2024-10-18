@@ -248,6 +248,7 @@ header {
   overflow: hidden;
   display: grid;
   align-items: center;
+  margin-top: 3rem;
 }
 
 .header-container {
@@ -921,6 +922,9 @@ footer {
     gap: 5rem;
   }
 
+  .header-container p{
+    width: 100%;
+  }
   .cv {
     margin: 1rem;
     margin-bottom: 3rem;
@@ -955,5 +959,12 @@ footer {
 
   .skills-right h5 {
     font-size: 1.1rem;
+  }
+}
+
+
+@media (min-width: 300px){
+  .Social-links{
+    left: 3.5rem;
   }
 }
